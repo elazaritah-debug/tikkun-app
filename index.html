@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="he" dir="rtl">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>תיקון הכללי</title>
+<link rel="stylesheet" href="style.css">
+<link rel="manifest" href="manifest.json">
+<link rel="icon" href="logo.png">
+<meta name="theme-color" content="#ff6a00">
+</head>
+<body>
+
+<div class="card">
+<img src="logo.png" class="logo">
+
+<h1>תיקון הכללי</h1>
+
+<div id="goalText"></div>
+
+<div class="counter" id="count">0</div>
+
+<div class="progress">
+<div id="bar"></div>
+</div>
+
+<button onclick="mark()">סימנתי להיום 🔥</button>
+
+<div id="last"></div>
+
+<select id="goalSelect">
+<option value="40">40 יום</option>
+<option value="90">90 יום</option>
+<option value="180">180 יום</option>
+<option value="365">365 יום</option>
+</select>
+
+<button class="reset" onclick="resetAll()">איפוס</button>
+
+<div id="percent"></div>
+
+</div>
+
+<script src="app.js"></script>
+
+</body>
+</html>
